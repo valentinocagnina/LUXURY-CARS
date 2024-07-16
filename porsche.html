@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Posche 911 </title>
+    <link rel="stylesheet" href="propiedades.css">
+</head>
+<body>
+    <header>
+        <div class="pie">
+            <h1>Urquiza Luxury Cars</h1>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="vehiculos.html">Vehiculos</a></li> 
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="detalle-propiedad">
+        <div class="pie">
+            <h2>Porsche 911 3.8 Carrera 4 S 400cv</h2>
+            <img src="PORS" alt="PORS">
+            <img src="PORS INT" alt="PORS2">
+            <img src="PORS ATRAS.webp" alt="PORS3">
+            <p>Precio: 250,000U$D</p>
+            <p>Porsche 911 2015 3.8 Carrera 4 S 400cv (991)
+
+                Transmisión AT PDK Doble embrague de siete velocidades <br>
+                AERO KIT ( paragolpes y alerón trasero )<br>
+                Asistente de estacionamiento delantero y trasero<br>
+                Pack Sport Chrono plus<br>
+                Escapes deportivos<br>
+                Levas al volante<br>
+                Techo solar eléctrico<br>
+                Espejos retrovisores eléctricos<br>
+                Luces dinámicas automáticas direccionables en curvas<br>
+                Llantas rodado 20 Carrera classic con escudos a color<br>
+                Cuatro neumáticos Michelin nuevos</p>
+            <button onclick="comprarVehiculo()">Comprar</button>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="pie">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nombre">
+                <input type="email" name="email" placeholder="Correo electrónico">
+                <textarea name="message" placeholder="Mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="pie">
+            <p>&copy; 2024 Urquiza Luxury Cars. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function comprarVehiculo() {
+            alert('Has comprado este vehiculo.');
+        }
+    </script>
+</body>
+</html>
